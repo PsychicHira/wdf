@@ -1,0 +1,256 @@
+/* 公共样式 */
+li {
+    list-style: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+a,a:hover,a:visited {
+    color: white;
+    text-decoration: none;
+}
+/*首页*/
+/* 头部 */
+.head {
+    height: 100px;
+    background: #002222;
+    border-bottom: 2px solid #000;
+}
+.head .brandd {
+    width: 489px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+.head img {
+    margin-top: 30px;
+    position: absolute;
+    
+}
+.head .nav {
+    float: right;
+}
+.head .nav .up {
+    height: 60px;
+}
+.head .nav .up span {
+    float: right;
+    line-height: 60px;
+    font-size: 20px;
+    color: #fff;
+}
+.head .nav .down {
+    height: 40px;
+}
+.head .nav .down span {
+    display: inline-block;
+    width: 7px;
+    height: 4px;
+    margin-left: 5px;
+    background: url("../img/SpryMenuBarDown.gif") no-repeat center;
+}
+.head .nav .down li:hover span {
+    background: url("../img/SpryMenuBarDownHover.gif") no-repeat center;
+}
+.head .nav .down ul li{
+    margin-left:40px;
+    float: right;
+    line-height: 30px;
+}
+/* 产品 */
+.product {
+    width: 100%;
+}
+.product .row {
+    margin-top: 20px;
+}
+.product .row div {
+    max-width: 480px;
+    max-height: 480px;
+}
+.product .row div img {
+    /*max-width: 480px;*/
+    /*max-height: 480px;*/
+    width: 100%;
+}
+.product .row .title {
+    text-align: center;
+    height: 40px;
+    background: #eee;
+    line-height: 40px;
+    font-size: 16px;
+}
+/* 底部 */
+.foot {
+    width: 100%;
+    height: 409px;
+    background: url("../img/db_bj.jpg") no-repeat center;
+    padding-top: 30px;
+    margin-top: 50px;
+}
+.foot ul{
+    float: left;
+
+}
+.foot ul+ul {
+    margin-left: 110px;
+}
+.foot ul li{
+    color: white;
+    line-height: 50px;
+}
+/* 品牌页面 */
+.brand-title {
+    height: 350px;
+    background: url("../img/brand-title.png") no-repeat center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.brand-content p:first-child {
+    margin-left: 15px;
+}
+.brand-content .side a {
+    color: black;
+}
+.brand-content .side ul li {
+    width: 210px;
+    height: 60px;
+    background-color: #F8F8F8;
+    text-align: center;
+    line-height: 60px;
+    margin-bottom: 2px;
+    font-size: 16px;
+}
+.brand-content .content h3 {
+    background-color: #F8F8F8;
+    line-height: 60px;
+    margin: 0;
+    padding: 0;
+}
+.brand-content .content img {
+    width: 100%;
+}
+/* 新闻页面 */
+.news-title {
+    height: 350px;
+    background: url("../img/news-title.png") no-repeat center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.news h3 {
+    background-color: #F8F8F8;
+    line-height: 60px;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+}
+.news .content {
+    padding-top: 50px;
+}
+.news .content img {
+    max-height: 150px;
+    max-width: 150px;
+    float: left;
+}
+.news .content .text {
+    padding-left: 200px;
+    min-height: 150px;
+}
+/*下一页*/
+.page{
+  text-align: center;
+}
+/*产品中心*/
+.product-title {
+    height: 350px;
+    background: url("../img/product-title.jpg") no-repeat center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.product-content ul{
+    text-align: center;
+}
+.product-content ul{
+    background-color: #F8F8F8;
+    line-height: 60px;
+    margin: 30px 0;
+    padding: 0;
+    padding-left: 20px;
+}
+.product-content ul li {
+    float: left;
+    font-size: 18px;
+    margin-right: 40px;
+}
+.product-content ul span {
+    border-right: 2px solid #e3e3e3;
+    margin-left: 40px;
+}
+.product-content .product-show div {
+    height: 253px;
+    width: 253px;
+}
+.product-content .product-show img {
+    width: 100%;
+    border: none;
+}
+.product-content .product-show p {
+    width: 253px;
+    height: 80px;
+    background-color: #F8F8F8;
+    line-height: 80px;
+    font-size: 18px;
+    text-align: center;
+}
+/* 案例 */
+.case-title {
+    height: 350px;
+    background: url("../img/case-title.jpg") no-repeat center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.case h3 {
+    background-color: #F8F8F8;
+    line-height: 60px;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+}
+.case div{
+    margin: 30px 0;
+    text-align: center;
+}
+.contect-content p:first-child {
+    margin-left: 0;
+}
+.contect-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
